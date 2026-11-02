@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(68, 66, 66);
+}
+.container{
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+.content{
+margin-bottom: 20px;
+
+text-align: center;
+align-items: center;
+font-style: italic;
+font-weight: 700;
+font-size: 20px;
+}
+
+.fornhite{
+  font-size: large;
+
+}
+.input{
+  height: 30px;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+.btn{
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 2px ;
+  cursor: pointer;
+}
+
+.result{
+  margin-top: 20px;
+  margin-right: 90px;
+}

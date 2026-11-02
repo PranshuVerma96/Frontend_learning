@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document and colorSwitcher</title>
+  <style>
+    .container{
+      width: 90%;
+      height: 80vh;
+      display: flex;
+     
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      gap: 20px;
+    }
+   .div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90px;
+      height: 90px;
+      border: 3px solid black;
+      border-radius: 2px solid black;
+     
+    }
+    .red{
+      background-color: red;
+    }
+    .blue{
+      background-color: blue;
+    }
+    .pink{
+      background-color: pink;
+    }
+    .purple{
+      background-color: purple;
+    }
+
+  </style>
+</head>
+<body>
+ <h1 style="text-align: center;">
+  This is my  color switcher game</h1>
+  <div class="container">
+    
+    <div class="div blue">1</div>
+    <div class=" div red">2</div>
+    <div class="div pink">3</div>
+    <div class="div purple">4</div>
+  </div>
+  
+
+</body>
+<script>
+  /*const boxs = document.querySelector('.container');
+  
+  const box1 = document.querySelector('.blue');
+  box1.addEventListener('click',function(){
+    document.body.style.backgroundColor = 'blue';
+  });
+
+  const box2 = document.querySelector('.red');
+  box2.addEventListener('click',function(){
+    document.body.style.backgroundColor = 'red';
+  });
+  const box3 = document.querySelector('.pink');
+  box3.addEventListener('click',function(){
+    document.body.style.backgroundColor = 'pink';
+  });
+  const box4 = document.querySelector('.purple');
+  box4.addEventListener('click',function(){
+    document.body.style.backgroundColor = 'purple';
+  });
+
+*/
+
+  const boxes = document.querySelectorAll('.div');
+
+  boxes.forEach((box) => {
+    box.addEventListener('click', function () {
+      document.body.style.backgroundColor = box.classList[1];
+    });
+  });
+</script>
+</html>

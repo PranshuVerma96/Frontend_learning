@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  
+  h1::before{
+    content: 'pranshu';
+    
+  }
+  p::before{
+    content: 'sandesh ';
+  }
+  p::first-letter{
+    font-size: 48px;
+    color: green;
+    font-weight: bold;
+
+  }
+
+  p::selection{
+    color: pink;
+    text-decoration: underline;
+    background-color: red;
+  }
+  h2::selection{
+    color: brown;
+  }
+</style>
+<body>
+  
+  <h1>This is my pseduo element </h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio hic minus suscipit blanditiis accusantium eum explicabo eos beatae laborum perspiciatis accusamus, expedita id unde, corrupti nemo minima tempore voluptatem ab?</p>
+  <h2>this is my second heading</h2>
+  <button>Click ME</button>
+</body>
+</html>

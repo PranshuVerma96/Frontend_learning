@@ -1,0 +1,35 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+#heading{
+  margin: 200px;
+}
+#container{
+height: 500px;
+width: 500px;
+padding: 10px;
+margin: 20px;
+background-color: rgb(187, 197, 205);
+border: 3px solid red;
+display: flex;
+flex-direction:row;
+}
+.item{
+  height: 180px;
+  width: 280px;
+  margin: 10px;
+  border: 2px solid rgb(87, 29, 162);
+}
+#item1{
+  background-color: aliceblue;
+}
+#item2{
+  background-color: rgb(57, 85, 109);
+}
+#item3{
+  background-color: rgb(68, 168, 22);
+}
+#item4{
+  background-color: rgb(154, 10, 94);
+}

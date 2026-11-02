@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document and mario</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1520209759809-a9bcb6cb3241?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1nfGVufDB8fDB8fHww');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  img{
+    margin: 10px;
+    height: 90px;
+   border-radius: 50%;
+animation-name: mario ;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+position: absolute;
+
+bottom: 30%;
+  
+  }
+
+@keyframes mario {
+  
+
+0%{
+  transform: translateX(0);
+}
+100%{
+  transform: translateX(calc(100vw - 100px));
+}
+}
+
+
+
+</style>
+<body>
+  <img src="https://i.pinimg.com/originals/39/63/56/39635620bc39fd89280af66645b69d80.gif" alt="">
+  
+</body>
+</html>

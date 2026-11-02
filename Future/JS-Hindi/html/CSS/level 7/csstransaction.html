@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trasitions</title>
+  <style>
+     .btn{
+     /* height: 30px;
+      width: 150px;
+      border: 2px solid ;  
+      background-color: aliceblue;
+      transition-property: all;
+      transition-duration: 1s;
+      transition-timing-function: steps(3);
+      transition-delay: 0s;**/
+
+      transition: all 1s ease-in-out 0s;
+    }
+    .btn:hover{
+      background-color: red;
+      border-radius: 3px;
+    }
+    .btn:active{
+      height: 25px;
+      width: 150px;
+      border: 2px soild red;
+      background-color: rgb(33, 158, 112);
+    }
+  </style>
+</head>
+<body>
+  <button class="btn">Click Me Please</button>
+</body>
+</html>

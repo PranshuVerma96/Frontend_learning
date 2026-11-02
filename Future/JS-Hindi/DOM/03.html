@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document object model</title>
+</head>
+<body style="background-color: black; color:aliceblue">
+  
+</body>
+<script>
+const div = document.createElement('div')
+console.log(div)
+div.className = 'main'
+div.id=Math.round(Math.random()*10+1)
+
+div.setAttribute('title', 'pranshu')
+div.style.backgroundColor = 'green'
+div.style.padding = '10px'
+
+//div.innerText = 'pranshu verma'
+const Add_text = document.createTextNode('pranshu verma')
+div.appendChild(Add_text)
+document.body.appendChild(div)
+
+function ram(){
+const div2 = document.createElement('div')
+console.log(div2)
+div2.className = 'pransh'
+div2.setAttribute('id','pa')
+div2.style.backgroundColor = 'skyblue'
+div2.style.color = 'brown'
+div2.style.padding = '10px';
+div2.style.borderRadius = '5px';
+div2.style.border = 'solid red 3px'
+
+
+const ApplyText = document.createTextNode('papa ki pari')
+div2.appendChild(ApplyText)
+
+document.body.appendChild(div2)
+
+
+}
+ram();
+ram();
+ram();
+
+</script>
+</html>

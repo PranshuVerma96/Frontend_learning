@@ -1,0 +1,1 @@
+reduce( ( curvalue ,item) =>(curvalue + item));

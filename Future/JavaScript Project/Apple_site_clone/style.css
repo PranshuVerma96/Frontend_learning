@@ -1,0 +1,126 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+/* nav bar section styling */
+.container {
+  
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;          
+  padding: 0 219px;      
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 4px;
+  white-space: nowrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  
+}
+
+a{
+  text-decoration: none;
+  color:#000000cc
+}
+.para{
+  text-align: center;
+  padding: 7px;
+  font-size: 14px;
+  line-height: 1.423;
+  
+  font-weight: 400;
+}
+.inner{
+  color: rgb(22, 102, 163);
+}
+
+/* first section */
+.ma{
+  display: flex;
+   padding: 0 130px;  
+  flex-direction: column;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.iphone{
+ position: absolute;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding-top: 25px;
+font-weight: 600;
+line-height: 1.05;
+font-size: 80px;
+align-items: center;
+}
+
+.box1{
+  display: flex;
+ justify-content: space-around;
+height: 300px;
+align-items: flex-end;
+padding-bottom: 40px;
+}
+.box img{
+  
+  height: 70px;
+}
+.new{
+  color: brown;
+}
+
+/* second section  */
+
+.section2{
+  display: flex;
+  padding-top: 50px;
+
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap:15px;
+  
+}
+.section2::-webkit-scrollbar{
+  display: none;
+}
+
+.boxs img{
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 350px;
+  border-radius: 28px;
+}
+.main{
+  margin-top: 90px;
+  margin-left: 70px;
+
+}
+.text{
+  display: flex;
+ justify-content: space-around;
+}
+.contant{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: 410px;
+  font-size: 56px;
+  line-height: 1.08;
+  font-weight: 600;
+}
+.small-text{
+ padding-top: 30px;
+ padding-right: 90px;
+  
+}
+.col{
+color: rgb(0, 102, 204);
+}

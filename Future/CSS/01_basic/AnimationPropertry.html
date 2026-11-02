@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document and animation </title>
+  <style>
+
+    body{
+      background-color: rgb(95, 85, 85);
+    }
+    .box{
+      background: linear-gradient(red ,pink);
+      border-radius: 50%;
+      height: 90px;
+      width: 90px;
+      box-shadow: 2px 1px 2px;
+      animation-name: lefttoright;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-delay:2s;
+     animation-direction: alternate-reverse;
+    }
+    @keyframes lefttoright{
+      from{
+        translate: 0%;
+      }
+      to{
+
+        translate: calc(90vw - 100px);
+      }
+    }
+
+  </style>
+</head>
+<body>
+ 
+  <div class="container">
+    <h1>Css Animation </h1>
+    <div class="box"></div>
+  </div>
+  
+</body>
+</html>

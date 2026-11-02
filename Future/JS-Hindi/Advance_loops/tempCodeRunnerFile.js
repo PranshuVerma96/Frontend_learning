@@ -1,1 +1,0 @@
-.filter((item)=>item>=50)

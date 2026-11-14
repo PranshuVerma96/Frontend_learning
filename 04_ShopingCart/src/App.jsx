@@ -9,7 +9,7 @@ const App = () => {
       if (prev < 10) {
         return prev + 1;
       } else {
-        alert("It is out of stock / Max limit reached");
+        alert("It is out of stock / Max limit reached"); 
       }
     });
   };

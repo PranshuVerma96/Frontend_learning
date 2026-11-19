@@ -16,7 +16,7 @@ export default function Header() {
             />
           </a>
 
-          {/* Buttons */}
+          {/* Buttons */ }
           <div className="flex items-center lg:order-2">
             <a
               href="#"

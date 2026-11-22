@@ -12,7 +12,7 @@ export default function Header() {
           <a href="/" className="flex
  items-center">
             <img
-              src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+           src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
 
               className="mr-3 h-12"
               alt="Logo"

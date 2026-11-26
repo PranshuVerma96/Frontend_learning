@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div>
 
-      <h1 className='bg-green-600 p-5'></h1>
+     <h1 className='bg-green-600 p-5'></h1>
      <Header/>
 
     </div>
